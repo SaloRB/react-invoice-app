@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { useEffect } from 'react/cjs/react.development'
+import { useState, useEffect } from 'react'
 import iconArrowDown from '../assets/icon-arrow-down.svg'
 import iconPlus from '../assets/icon-plus.svg'
 import illustrationEmpty from '../assets/illustration-empty.svg'
