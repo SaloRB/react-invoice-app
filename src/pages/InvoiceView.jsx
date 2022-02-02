@@ -4,7 +4,7 @@ import iconArrowLeft from '../assets/icon-arrow-left.svg'
 import '../styles/InvoiceView.scss'
 import { getInvoiceById } from '../services/firebase'
 import { updateDoc, doc, deleteDoc } from 'firebase/firestore'
-import db from '../firebase/firebaseInit'
+import db from '../utils/firebaseInit'
 import Loading from '../components/Loading'
 import NotFound from './NotFound'
 

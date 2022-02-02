@@ -5,7 +5,7 @@ import iconPlus from '../assets/icon-plus.svg'
 import { uid } from 'uid'
 import Loading from './Loading'
 import { collection, addDoc, doc, updateDoc } from 'firebase/firestore'
-import db from '../firebase/firebaseInit.js'
+import db from '../utils/firebaseInit.js'
 
 function InvoiceModal({
   setInvoiceModal,
